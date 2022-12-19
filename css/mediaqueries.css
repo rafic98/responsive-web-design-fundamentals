@@ -1,0 +1,32 @@
+/* our objective is that when the screen width increases our html divs will be displayed side by side*/
+.container {
+  background-color: #e2e2e2;
+  margin: 1%;
+  padding: 10px;
+  box-sizing: border-box;
+  /* box sizing allows you to specify width values in such a way that the padding and the borders are included withen the specified width */
+}
+/* we are going to decide on our breakpoints, breakpoints are values of the width in pixels that will cause the change of the layout */
+
+/* if the width is <600 px we will display the divs under each other. */
+
+/* if the width is >600 px we will display two divs side by side. */
+
+/* if the width is >800 then we can adjust 3 containers side by side. */
+/* we can also use the keyword  screen , print instead of all*/
+@media all and (max-width: 37.74rem) {
+}
+/* all css rules we define here  are applicaple for screen width under 600px*/
+
+@media all and (min-width: 37.75rem) and (max-width: 50rem) {
+  .container {
+    width: 48%;
+    float: left;
+  }
+}
+@media all and (min-width: 50.01rem) {
+  .container {
+    width: 31%;
+    float: left;
+  }
+}
