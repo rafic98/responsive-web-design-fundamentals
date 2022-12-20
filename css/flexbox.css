@@ -49,3 +49,47 @@
   flex: 2;
   order: 1;
 }
+
+/* ============================================================ */
+
+.container3 {
+  margin-top: 10px;
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  /* the direction is reversed now */
+}
+.item-6 {
+}
+.item-7 {
+}
+.item-8 {
+}
+.item-9 {
+}
+.item-10 {
+}
+
+.container4 {
+  margin-top: 10px;
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /*this will display the items in a column  if we typed column reverse which will change the content arrangment  */
+}
+
+.container5 {
+  margin-top: 10px;
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* you can see that the text inside each div takes one line and is not moved to another, this causes the entire div (last one) to go one row lower */
+  /* we can use flex-flow:row nowrap; instead of typing: 
+  flex-direction: row;
+  flex-wrap: wrap;
+     */
+}
