@@ -21,3 +21,41 @@
 ## flex-flow:<direction><flow>
 
 - it is a shorthand css property to specify flex dirextion and flex wrap in a single line of code.
+
+## Aligning items in flexbox
+
+### Justify-content
+
+- it is used to define how the items should be aligned along the main axis inside a flex container
+
+- justify content values include:
+  - flex-start
+  - flex-end
+  - center
+  - space-evenly
+  - space-around
+  - space-between
+
+### align-items
+
+- it is used to define how the items should be aligned along the cross axis inside a flex container.
+
+- align-items values include:
+  - stretch
+  - flex-start
+  - flex-end
+  - center
+  - baseline
+
+### align-content
+
+- it is used to align lines of tems as a whole
+
+-align-content values include:
+
+- flex-start
+- flex-end
+- center
+- stretch
+- space-around
+- space-between

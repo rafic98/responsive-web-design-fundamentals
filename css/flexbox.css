@@ -26,6 +26,14 @@
   padding: 5px;
   color: white;
 }
+.item1 {
+  background-color: tomato;
+  /* width: 50px;  */
+  /* height: 50px; */
+  margin: 5px;
+  padding: 5px;
+  color: white;
+}
 .item-1 {
   flex: 2;
   /* instead of specifiying a static width for each item, using the flex property, we can allow the flex box to calculate the width of each item dynamically  */
@@ -60,16 +68,6 @@
   flex-direction: row-reverse;
   /* the direction is reversed now */
 }
-.item-6 {
-}
-.item-7 {
-}
-.item-8 {
-}
-.item-9 {
-}
-.item-10 {
-}
 
 .container4 {
   margin-top: 10px;
@@ -92,4 +90,35 @@
   flex-direction: row;
   flex-wrap: wrap;
      */
+}
+
+/* ========================================================= */
+
+.container6 {
+  margin-top: 10px;
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 200px;
+  /* jusitgy content is used to align the content along the main axes flex-start is default */
+  justify-content: center;
+
+  /* if you want to align items according to the cross axis you can do it using align-items css property, stretch is the default value.  */
+  /* flex start will be aligned to the top of the container */
+  align-items: flex-start;
+}
+
+.container7 {
+  margin-top: 10px;
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vw;
+  justify-content: center;
+  align-items: center;
+
+  align-content: center;
+  /* sets the distributuion space around content items */
 }
