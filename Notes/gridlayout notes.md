@@ -75,3 +75,24 @@
 
 - grid-gap:<grid-row-gap><grid-column-gap>;
 - eg: grid-gap: 10px 10px;
+
+## Placing items
+
+- A grid item by default takes up 1 cell in a grid.
+
+- the item that is in the cell is placed in is chosen with the help of some rules and the order of the item in the list of items within the grid container.
+
+- A grid item is placed in a grid by referring to specific grid lines.
+
+- Start and end grid lines are specified for coumns and rows using CSS properties.
+
+### Grid-column
+
+- grid-column-start: USed on an item to speciy the start of grid line for the item.
+- grid-column-end: Used to specify the end line for the item.
+
+- eg: grid-column-start:2; grid-column-end:4;
+
+- Shorthand: grid-column: 2/4;
+
+- both properties ensure that the item takes all coloumns/rows between start and end gridlines specified
