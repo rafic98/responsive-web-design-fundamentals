@@ -1,0 +1,30 @@
+.container {
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: grid;
+  height: 6.25;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 4, 1fr;
+  grid-gap: 10px 10px;
+  grid-template-areas:
+    "header header header header" /* this means i want to use the fist 4 cells as my header*/
+    " sidebar .cotent content"
+    "footer footer footer footer";
+}
+.item {
+  background-color: tomato;
+  padding: 5px;
+  color: white;
+}
+.item-1 {
+  grid-area: header;
+}
+.item-2 {
+  grid-area: content;
+}
+.item-3 {
+  grid-area: sidebar;
+}
+.item-4 {
+  grid-area: footer;
+}
