@@ -1,0 +1,45 @@
+.container {
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, 100px);
+}
+.item {
+  background-color: tomato;
+  padding: 5px;
+  color: white;
+}
+
+.item-1 {
+}
+.item-2 {
+}
+.item-3 {
+}
+.item-4 {
+}
+.item-5 {
+}
+.item-6 {
+}
+.item-7 {
+}
+.item-8 {
+}
+.item-9 {
+}
+.item-10 {
+}
+
+.container2 {
+  margin-top: 2rem;
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: grid;
+
+  grid-template-columns: 200px minmax(200px, 1fr) 3fr 2fr;
+  grid-template-rows: repeat(3, 150px);
+  /* this says i want 3 rows and each row is 150px tall */
+  grid-gap: 10px 10px;
+}

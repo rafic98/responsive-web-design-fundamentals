@@ -35,3 +35,43 @@
 ### Grid area
 
     - A grid area is composed of any number of grid cells
+
+## grid-templte columns
+
+- grid-template-coloumns: 100px 100px 100px;
+  creates a grid each cell is 100px x 100px
+- it can also be done using the repeat() fuction:
+  - grid-template-columns: repeat(3,100px);
+- values can be in absolute or relative values
+
+  ### other units:
+
+      - fr = fractions
+      - auto -> takes remaining space
+
+## min-content
+
+- allows specifiying width for a column or height for a row and ensures that the cells take the minimum amount of space that the content needs.
+- lowest possible width
+
+## max-content
+
+- Allows specifying dynamic width for a coloumn or height for a row and ensures that the vcells takes the maximum amount of space that the content needs.
+- takes as much sapce as possible to fit the content
+
+## minmax()
+
+- this method is used to set a range of width for a column or a height for a row.
+- the function accepts 2 parameters, which reperesnt the minimum and maximum values
+- eg: grid-template-columns:2fr minmax(200px,2fr) 3dr;
+
+## grid-gap
+
+- allows you to specify the space between 2 adjacent rows and columns
+
+- eg: grid-row-gap:10px; grid-column-gap:10px;
+
+### shorthand for grid-gap
+
+- grid-gap:<grid-row-gap><grid-column-gap>;
+- eg: grid-gap: 10px 10px;
